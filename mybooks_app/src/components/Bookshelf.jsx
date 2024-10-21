@@ -2,10 +2,8 @@ import react,{useState,useEffect} from 'react';
 import axios from 'axios'
 
 
-const books=()=>{
-
-
-   const [mybooks,setMybooks]= useState([]);
+const Bookshelf =()=>{
+    const [mybooks,setMybooks]= useState([]);
    const [interBook , setInterBook] = useState();
 
 
@@ -51,4 +49,4 @@ const books=()=>{
         </>
     )
 }
-export default books
+export default Bookshelf;
